@@ -1,0 +1,289 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1440px) and (max-width: 1920px) {
+
+}
+@media (min-width: 1281px) and (max-width: 1441px) {
+  .yellow-box{
+    padding: 10px;
+    min-height: initial;
+  }
+  .header-label{
+    display: none;
+  }
+  .tabs a{
+    padding: 20px 5px;
+  }
+  .yellow-box .value {
+    font-size: 30px;
+    font-weight: 800;
+    top: 1px;
+  }
+  .yellow-box .value-2{
+    left: 108px;
+    top: 73px;
+  }
+  .yellow-box .sub-val {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 37px;
+  }
+  .headerSearch{
+    width: 200px
+  }
+  .headerSearch:focus{
+    width: 220px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1440px) {
+  .yellow-box{
+    padding: 10px;
+    min-height: initial;
+  }
+  .header-label{
+    display: none;
+  }
+  .tabs a{
+    padding: 20px 5px;
+  }
+  .headerSearch{
+    display: none
+  }
+  .yellow-box .value {
+    font-size: 24px;
+    font-weight: 800;
+    top: 1px;
+  }
+  .yb-big-icon {
+    float: left;
+    width: 45px;
+    margin-right: 14px;
+  }
+  .yellow-box .value-2{
+    left: 85px;
+    top: 68px;
+    font-size: 12px
+  }
+  .yellow-box .sub-val {
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 37px;
+  }
+  .headerSearch{
+    width: 200px
+  }
+  .headerSearch:focus{
+    width: 220px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1281px) {
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .sidebar-menu .menu-icon {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+  }
+
+  .sidebar-menu .single-link {
+    background-image: none !important;
+  }
+
+  .sidebar-menu .menu-item[aria-expanded="false"] {
+    background-image: none;
+  }
+
+  .sidebar {
+    margin-left: -250px;
+  }
+
+  .desktop-logo {
+    display: none;
+  }
+
+  .header-label {
+    display: none;
+  }
+
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  .header .unread-count {
+    top: -12px;
+    font-size: 11px;
+  }
+
+  .mobile-logo {
+    display: block;
+    width: 41px;
+    position: relative;
+    right: 13px;
+    float: right;
+  }
+
+  .sidebar.toggled {
+    margin-left: 0;
+  }
+
+  .sidebar-toggle {
+    display: none;
+  }
+
+  .content {
+    margin-top: 93px
+  }
+
+  .page-content {
+    padding: 20px 15px;
+  }
+
+  #showStats {
+    width: 100%;
+  }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .sidebar-menu .menu-icon {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+  }
+
+  .sidebar-menu .single-link {
+    background-image: none !important;
+  }
+
+  .sidebar-menu .menu-item[aria-expanded="false"] {
+    background-image: none;
+  }
+
+  .sidebar {
+    margin-left: -250px;
+  }
+
+  .desktop-logo {
+    display: none;
+  }
+
+  .header-label {
+    display: none;
+  }
+
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  .header .unread-count {
+    top: -12px;
+    font-size: 11px;
+  }
+
+  .mobile-logo {
+    width: 41px;
+    position: relative;
+    right: 13px;
+    float: right;
+    display: block;
+  }
+
+  .sidebar.toggled {
+    margin-left: 0;
+  }
+
+  .sidebar-toggle {
+    display: none;
+  }
+
+  .content {
+    margin-top: 93px
+  }
+
+  .page-content {
+    padding: 20px 15px;
+  }
+
+  #showStats {
+    width: 100%;
+  }
+
+  .yellow-box {
+    text-align: center;
+    height: auto;
+    min-height: initial;
+    margin-bottom: 5px;
+  }
+
+  .yellow-box .sub-val {
+    text-align: center;
+  }
+  .select-group-right{
+    float: none
+  }
+  .select-group-right select{
+    margin-left: 0px !important;
+    margin-top: 10px!important;
+  }
+  .home-stats-card strong{
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .showcase-img .img-100 {
+    width: 100%;
+  }
+}

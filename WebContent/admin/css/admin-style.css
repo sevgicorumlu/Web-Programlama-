@@ -1,0 +1,137 @@
+body {
+  font-family: 'Raleway';
+  font-size: 16px;
+  background-color: grey;
+}
+
+.sidebar {
+  width: 250px;
+  float: left;
+  padding: 40px 30px 220px;
+  background-color: lavenderblush;
+}
+
+.sidebar .list-group {
+  margin-top: 20px;
+}
+  
+.sidebar .list-group p.title {
+  font-size: 40px;
+  font-family: 'Raleway';
+  font-weight: bolder;
+  text-align: center;
+}
+  
+.sidebar .list-group ul li a {
+  margin: 10px;
+  list-style-type: none;
+  font-family: 'Raleway';
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 15px;
+  display: block;
+  color: purple;
+}
+
+.sidebar .list-group ul li a:hover {
+  text-decoration: none;
+  padding-left: 15px;
+  display: block;
+  color: rgb(206, 36, 206);
+}
+
+.content {
+    width: 660px;
+    float: left;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: white;
+    font-family: 'Raleway';
+}
+  
+.content h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+  
+.content p {
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.header {
+    border-bottom: #DDA0DD;
+    border-bottom-style: groove;
+}
+
+.form-inline{
+  margin-top: 200px;
+}
+
+.wrapper {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+.clear {
+  clear: both;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.my-btn { 
+  border-color: #800080; /*dark purple */
+  background-color: #DDA0DD; /* light one*/
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.my-btn:hover { 
+  border-color: #800080;
+  background-color: #FFC0CB; /*pink*/
+  font-weight: bolder;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+.right-side {
+  float: right;
+}
+
+footer {
+  background-color: lavenderblush;
+  border-top: #DDA0DD;
+  border-top-style: groove;
+  padding: 40px;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+}
+
+.extra-info img{
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.extra-info ul{
+  list-style-type: none;
+}
+
+.extra-info ul li a {
+  text-decoration: none;
+  color: black;
+}

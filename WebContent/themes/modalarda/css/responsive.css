@@ -1,0 +1,420 @@
+@media all and (min-width: 375px) and (max-width: 768px) {
+  .breadcrumb{
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .h1, h1 {
+    font-size: 1.5rem;
+  }
+
+  .middle-header {
+    border-top: solid 5px #FF9D00;
+    top: 0
+  }
+
+  .logo-area {
+    order: 1;
+  }
+
+  .link-area {
+    order: 2;
+  }
+
+  .search-area {
+    order: 3;
+  }
+
+  .hul-span {
+    display: none;
+  }
+
+  .slider {
+    padding-top: 130px;
+  }
+
+  .stellarnav {
+    display: none;
+  }
+
+  .mm-toggle {
+    display: inline-block;
+  }
+
+  .modalarda-logo {
+    width: 150px;
+    height: auto;
+    top: -4px;
+    position: relative;
+    left: 7px;
+  }
+
+  .header-search #searchTerm, .header-search .hs-submit {
+    border-radius: 0;
+  }
+
+  .header-user-links {
+    margin: 3px 0 0 0;
+  }
+
+  .logo-area{
+    margin-top: -9px;
+    position: relative;
+    top: 11px;
+  }
+
+  .header-user-links li {
+    margin-left: 0;
+  }
+
+  .header-user-links li a {
+    padding: 0;
+  }
+
+  #homeCarLeft, #homeCarRight {
+    font-size: 25px;
+  }
+
+  #homeCarLeft {
+    left: 10px;
+  }
+
+  #homeCarRight {
+    right: 10px;
+  }
+
+  .product-showcase {
+    margin: 10px 0;
+  }
+
+  .product-details .product-status {
+    font-size: 16px;
+  }
+
+  .product-list .product-meta .product-add-to-cart .btn-add-to-cart {
+    width: 100%;
+    min-width: initial;
+    max-width: 100%;
+  }
+
+  .product-list .product a, .product-list .product .product-price {
+    font-size: 16px;
+  }
+
+  .product-details {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .product-details #productQuantity {
+    margin-left: 0;
+  }
+
+  .border-right-0 {
+    border-right: solid 1px #CBCBCB !important;
+  }
+
+  .category-link {
+    margin-bottom: 30px;
+  }
+
+  .category-title-over-image {
+    font-size: 12px;
+  }
+
+  .footer-top ul {
+    margin-bottom: 20px;
+  }
+
+  .footer-center .info-box {
+    display: none;
+  }
+
+  .footer-center .footer-menu {
+    text-align: center;
+  }
+
+  .footer-email-form button {
+    width: auto;
+  }
+
+  .product-images-nav {
+    display: none;
+  }
+
+  .category-desc {
+    font-size: 14px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-label {
+    margin-top: 10px;
+  }
+
+  .footer-bottom .adtorium {
+    text-align: center;
+  }
+
+  .social-circle {
+    text-align: center;
+  }
+
+  .ssl-info {
+    display: block;
+  }
+
+  .page-content {
+    padding-top: 90px;
+  }
+
+  .product-container {
+    margin-bottom: 10px;
+    border: solid 1px #EFEFEF;
+  }
+
+  .product-container .product-meta {
+    padding: 0 10px;
+  }
+
+  .product-container .product-meta .product-price {
+    text-align: right;
+    color: #171717;
+  }
+
+  .product-container .product-meta .product-old-price {
+    font-size: 12px;
+    color: #E22828;
+  }
+
+  .product-showcase .col-6:nth-child(2n+1) {
+    padding-right: 5px;
+  }
+
+  .product-showcase .col-6:nth-child(2n) {
+    padding-left: 5px;
+  }
+
+  .product-container .product-meta .currency {
+    color: #171717;
+  }
+
+  .product-title {
+    line-height: 14px;
+    text-align: left;
+  }
+
+  .product-title a {
+    color: #171717;
+    font-size: 13px;
+  }
+
+  .product-details-right {
+    text-align: center;
+  }
+
+  .product-details-title {
+    font-size: 25px;
+  }
+
+  .product-details-right {
+    border: 1px solid rgba(0, 0, 0, .1);
+  }
+
+  .productSize {
+    flex: 0 0 20%;
+  }
+  .floating-add-to-cart .add-to-cart{
+    flex: 0 0 80%;
+  }
+  .product-colors {
+    margin: 0;
+  }
+
+  .product-colors p {
+    margin-bottom: 0;
+  }
+
+  .product-colors ul li {
+    margin-right: 0;
+  }
+
+  .submit-comment {
+    width: 100%;
+    display: block;
+  }
+  .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active{
+    padding: 0.75em 1em;
+    font-size: 18px;
+  }
+  .wizard > .steps i{
+    display: none;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 374px) {
+  .middle-header {
+    border-top: solid 5px #FF9D00;
+    top: 0
+  }
+
+  .logo-area {
+    order: 1;
+  }
+
+  .link-area {
+    order: 2;
+  }
+
+  .search-area {
+    order: 3;
+  }
+
+  .hul-span {
+    display: none;
+  }
+
+  .mm-toggle {
+    top: 2px;
+  }
+
+  .stellarnav {
+    display: none;
+  }
+
+  .header-user-links {
+    margin: 0;
+  }
+
+  .icon-32 {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+  }
+
+  .header-user-links li {
+    margin: 0;
+  }
+
+  .header-user-links .cart-count {
+    left: 12px;
+  }
+
+  .modalarda-logo {
+    width: 128px;
+    height: 37px;
+    position: relative;
+    top: -4px;
+    left: 5px;
+  }
+
+  .mm-menu-title form {
+    display: none;
+  }
+
+  .header-user-links li a {
+    padding: 0;
+  }
+
+  .mm-toggle {
+    display: inline-block;
+  }
+
+  .tb-right button, .tb-left li a {
+    padding: 12px 5px;
+  }
+
+  .tb-right button span:not(.basket-count) {
+    display: none;
+  }
+
+  #homeCarLeft {
+    left: 10px;
+  }
+
+  #homeCarRight {
+    right: 10px;
+  }
+
+  .product-details .product-status {
+    font-size: 16px;
+  }
+
+  .product-list .product-meta .product-add-to-cart .btn-add-to-cart {
+    width: 100%;
+    min-width: initial;
+    max-width: 100%;
+  }
+
+  .product-list .product a, .product-price {
+    font-size: 16px;
+  }
+
+  .product-details {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .product-details #productQuantity {
+    margin-left: 0;
+  }
+
+  .product-images-nav {
+    display: none;
+  }
+
+  .page-content {
+    padding-top: 116px;
+  }
+
+  .footer-top ul {
+    margin-bottom: 20px;
+  }
+
+  .footer-center .info-box {
+    display: none;
+  }
+
+  .footer-center .footer-menu {
+    text-align: center;
+  }
+
+  .footer-email-form input[type="email"] {
+    float: left;
+    width: 65%;
+    font-size: 12px;
+    height: 45px;
+  }
+
+  .footer-email-form button {
+    width: 35%;
+  }
+
+  .category-desc {
+    font-size: 14px;
+  }
+
+  .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active{
+    padding: 0.75em 1em;
+    font-size: 18px;
+  }
+  .wizard > .steps i{
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-label {
+    margin-top: 10px;
+  }
+
+  .footer-bottom .adtorium {
+    text-align: center;
+  }
+}
